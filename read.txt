@@ -1,0 +1,19 @@
+BOT CHECKER BY BAMBI 🐝
+
+Pasos para poner en función el bot:
+
+1. Llene los campos obligatorios en kloe.php (Token, su id, contraseña etc)
+
+El no llenar estos campos GENERARÁ UN ERROR EN SU BOT
+
+$token = TOKEN DE SU BOT, ESTE SE OBTIENE EN BOT FATHER [TELEGRAM]
+
+$correcta = ES LA CONTRASEÑA QUE TENDRÁ KLOE EN CUENTA A LA HORA DE VERIFICAR, ES DECER, AL MOMENTO DE PONER /pass 12345, $correcta debe ser 12345
+
+$tunombre = EL NOMBRE CON EL CUAL QUIERE QUE EL BOT SE REFIERA A USTED 🧐, NO ES OBLIGATORIO
+
+2. Suba el archivo kloe.php a un host, puede usar el que más le guste
+
+3. Use la Webhook [https://api.telegram.org/bot<TOKEN>/setwebhook?url=<URL>/kloe.php] donde <TOKEN> lo reemplazará por el TOKEN de su bot, y <URL> lo reemplazará por la url que le otorgue su host, por ejemplo https://bambi.com/kloe.php, o si está en una carpeta, https://bambi.com/carpeta/kloe.php
+
+4. Disfrute 🤑
